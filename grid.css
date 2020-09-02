@@ -1,0 +1,129 @@
+ .grid1{
+    display: grid;
+    
+    grid-auto-rows: minmax(100px, auto);
+    margin: 50px auto;
+    max-width: 900px;
+    grid-template-areas: 
+    "A A A A"
+    "B B B C"
+    "D D D C"
+    "E E E F"
+    "E E E F"
+    "G G H H"
+    
+;
+
+    grid-gap: 5px;
+         
+}
+.boxX1{
+    grid-area: A;
+    background-color: green;
+    
+}
+
+.boxX2{
+    grid-area: B;
+    background-color: violet;
+}
+.boxX3{
+    grid-area: C;
+    background-color: slategray;
+}
+
+.boxX4{
+    grid-area: D;
+    background-color: powderblue;
+}
+
+.boxX5{
+    grid-area: E;
+    background-color: powderblue;
+}
+
+.boxX6{
+    grid-area: F;
+    background-color: powderblue;
+}
+
+.boxX7{
+    grid-area: G;
+    background-color: powderblue;
+}
+.boxX8{
+    grid-area: H;
+    background-color: powderblue;
+}
+
+
+
+.grid2{
+  display: grid;
+  margin: 50px auto;
+  max-width: 900px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  grid-template-areas: 
+  "boxD boxA boxA boxB boxC "
+  "boxD boxE boxF boxF boxF "
+  "boxD boxG boxG boxG boxG "
+  "boxD boxH boxH boxI boxI "
+  "boxD boxJ boxJ boxJ boxJ "
+ 
+  
+  ;
+
+   
+} 
+
+
+.box1{
+    background-color: red;
+    grid-area: boxA;
+}
+
+.box2{
+    background-color: yellow;
+    grid-area: boxB;
+}
+
+.box3{
+    background-color: blueviolet;
+    grid-area: boxC;
+}
+
+.box4{
+    background-color: pink;
+    grid-area: boxD;
+}
+
+.box5{
+    background-color: maroon;
+    grid-area: boxE;
+}
+.box6{
+    background-color: sandybrown;
+    grid-area: boxF;
+}
+
+.box7{
+    background-color: rosybrown;
+    grid-area: boxG;
+}
+
+.box8{
+    background-color: green;
+    grid-area: boxH;
+}
+.box9{
+    background-color: darkred;
+    grid-area: boxI;
+}
+.box10{
+    background-color:springgreen ;
+    grid-area: boxJ;
+}
+
+
+ 
